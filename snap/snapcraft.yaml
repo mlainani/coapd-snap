@@ -8,6 +8,11 @@ grade: devel
 confinement: devmode
 base: core18
 
+apps:
+  coapd:
+    command: bin/coapd
+    daemon: simple
+
 parts:
   coapd:
     plugin: make
